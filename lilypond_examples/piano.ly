@@ -18,7 +18,6 @@ lower = \relative c {
 
 \score {
   \new PianoStaff <<
-    \set PianoStaff.instrumentName = #"Piano  "
     \new Staff = "upper" \upper
     \new Staff = "lower" \lower
   >>
