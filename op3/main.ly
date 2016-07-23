@@ -14,12 +14,13 @@ upper = \relative c'' {
   \set Staff.pedalSustainStyle = #'bracket
 
   <gf gf'>8(\sustainOn df'8  <gf, gf'> df')  eff( df gf df) |
-  <f, af>8\sustainOff\sustainOn <bff gf> <f af> <bff gf> c bff af gf\sustainOff |
-  <gf gf'>8 df'8  <gf, gf'> df'  eff df f, df' |
-  <f, af>8 <bff gf> <f af> <bff gf> c bff af gf |
-  <f af>8 <bff gf> <f af> <bff gf> c a f gf |
-  <f af>8 <bff gf> <f af> <bff gf> df bff af gf |
-  <f af>8 <bff gf> <f af> <bff gf> df c gf af |
+  <f, af>8 <bff gf> <f af> <bff gf> c\> bff af gf\! |
+  
+  <gf gf'>8(\sustainOff\sustainOn df'8  <gf, gf'> df')  eff( df f, df') |
+  <f, af>8 <bff gf> <f af> <bff gf> c\> bff af gf\! |
+  <f af>8\sustainOff\sustainOn <bff gf> <f af> <bff gf> c a f gf |
+  <f af>8\sustainOff\sustainOn <bff gf> <f af> <bff gf> df bff af gf |
+  <f af>8\sustainOff\sustainOn <bff gf> <f af> <bff gf> df c gf af\sustainOff |
 
   \key d \minor
 
