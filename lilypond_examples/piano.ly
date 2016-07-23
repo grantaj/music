@@ -5,7 +5,7 @@ upper = \relative c'' {
   \key c \major
   \time 4/4
 
-  a4 b c d
+  a4 b c d | e4 f g8 g c4 
 }
 
 lower = \relative c {
@@ -13,7 +13,7 @@ lower = \relative c {
   \key c \major
   \time 4/4
 
-  a2 c
+  a2 c | c1
 }
 
 \score {
