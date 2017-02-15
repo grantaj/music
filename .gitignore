@@ -7,3 +7,14 @@
 ######################
 .DS_Store
 .DS_Store?
+*.aux
+
+*.bbl
+
+*.blg
+
+*.log
+
+*.rel
+
+*.gz
